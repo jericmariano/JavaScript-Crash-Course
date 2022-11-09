@@ -1,3 +1,8 @@
-let bool = !true
+let subscribed = true;
 
-console.log(bool)
+if (subscribed === true) {
+    console.log('show the video')
+} 
+else {
+    console.log('tell user to log into account')
+}
