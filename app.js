@@ -1,3 +1,3 @@
-let bool = '1' == 1
+let bool = !true
 
 console.log(bool)
