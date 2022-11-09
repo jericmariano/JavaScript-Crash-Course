@@ -1,14 +1,10 @@
-for (let i = 1; i < 21; i++) {
-    if ((i % 3 === 0) && (i % 5 === 0)) {
-        console.log('Frontend Simplified')
-    }
-    else if (i % 3 === 0) {
-        console.log('Frontend')
-    }
-    else if (i % 5 === 0) {
-        console.log('Simplified')
-    }
-    else {
-        console.log(i)
-    }
+
+
+
+function welcomePersonToFES(name, lastName) {
+    console.log(`Welcome to FES, ${name} ${lastName}`)
 }
+
+welcomePersonToFES('Jeric', 'Mariano');
+welcomePersonToFES('Jeric', 'Mariano');
+welcomePersonToFES('Jeric', 'Mariano');
