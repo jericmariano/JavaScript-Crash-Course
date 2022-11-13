@@ -1,5 +1,5 @@
-function celsiusToFahrenheit (celsius) {
+const convertCelsiusToFahrenheit = (celsius) => {
     return celsius * 1.8 + 32
 }
 
-console.log(celsiusToFahrenheit(30))
+console.log(convertCelsiusToFahrenheit(0))
