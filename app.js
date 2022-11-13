@@ -1,10 +1,6 @@
-
-
-
-function welcomePersonToFES(name, lastName) {
-    console.log(`Welcome to FES, ${name} ${lastName}`)
+function fn() {
+    return 5
+    console.log('my function')
 }
 
-welcomePersonToFES('Jeric', 'Mariano');
-welcomePersonToFES('Jeric', 'Mariano');
-welcomePersonToFES('Jeric', 'Mariano');
+console.log(fn())
