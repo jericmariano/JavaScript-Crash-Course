@@ -1,6 +1,5 @@
-function fn() {
-    return 5
-    console.log('my function')
+function celsiusToFahrenheit (celsius) {
+    return celsius * 1.8 + 32
 }
 
-console.log(fn())
+console.log(celsiusToFahrenheit(30))
