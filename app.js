@@ -1,6 +1,3 @@
-document.querySelector('#title').innerHTML = 'Frontend Simplified'
-
-
-function changeTitleToRed() {
-    document.querySelector('#title').style.color = 'red'
+function toggleDarkMode () {
+    document.querySelector('body').classList.toggle("dark-theme")
 }
