@@ -44,3 +44,19 @@ function logIn (email, password) {
 console.log(users[0].lessonsCompleted.map(elem => elem * 3))
 
 logIn('doesnotexist@gmail.com', 'merp')
+
+function register (user) {
+    users.push(user)
+
+}
+
+register ({
+username: 'J', 
+email: 'jmar08@gmail.com', 
+password: '2t123', 
+subscriptionStatus: 'VIP', 
+discordId: 'JM', 
+lessonsCompleted: [0, 1, 2]
+})
+
+console.log(users)
